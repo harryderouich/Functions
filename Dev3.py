@@ -19,6 +19,7 @@ def calculations(currency_from, currency_to):
             #Euro to GBP
         else:
             #Must be 1-3
+            print("Please enter one of the currencies from 1-3")
     elif currency_from = 2: #USD
         if currency_to = 1:
             #USD to Euro
@@ -29,6 +30,7 @@ def calculations(currency_from, currency_to):
             #USD to GBP
         else:
             #Must be 1-3
+            print("Please enter one of the currencies from 1-3")
     elif currency_from = 3: #GBP
         if currency_to = 1:
             #GBP to Euro
@@ -39,6 +41,7 @@ def calculations(currency_from, currency_to):
             print("You cannot convert GBP to GBP, Please try again")
         else:
             #Must be 1-3
+            print("Please enter one of the currencies from 1-3")
 
     return total
         
