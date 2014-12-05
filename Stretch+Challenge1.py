@@ -57,9 +57,12 @@ def imperial_to_metric(feet, inches):
     cm = float(cm % 100)
     return metres, cm
 
-measurement = get_info()
-large_unit_value, small_unit_value, large_unit, small_unit = which_converter(measurement)
-print("The converted values are {0:.1f}{1} {2:.2f}{3}".format(large_unit_value, large_unit, small_unit_value, small_unit))
+def conversion():
+    measurement = get_info()
+    large_unit_value, small_unit_value, large_unit, small_unit = which_converter(measurement)
+    print("The converted values are {0:.1f}{1} {2:.2f}{3}".format(large_unit_value, large_unit, small_unit_value, small_unit))
+
+conversion()
 
 
     
